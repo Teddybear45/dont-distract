@@ -1,0 +1,25 @@
+{
+  "name": "Scroll-Barred",
+  "version": "1.0",
+  "description": "Help gain precious browsing space back by removing the scrollbar that you have never touched!",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "css": [
+        "new-style.css"
+      ]
+    }
+  ]
+}
