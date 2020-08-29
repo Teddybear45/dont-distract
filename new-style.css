@@ -1,9 +1,54 @@
 * {
-    
+    /* Disable scrollbar for IE, Edge, Firefox*/
     -ms-overflow-style: none;
     scrollbar-width: none;
+    transition-duration: 0ms !important;
+    
+    /* Start \ removes animations and delays */
+    
+
+    /* Chrome New Edge Safari */
+    animation-duration: 0ms !important;
+    animation-delay: 0ms !important;
+    animation-fill-mode: both !important;
+    
+    
+    transition-duration: 0ms !important;
+    transition-delay: 0ms !important;
+
+    /* Opera */
+    -o-animation-duration: 0ms !important;
+    -o-animation-delay: 0ms !important;
+    -o-animation-fill-mode: both !important;
+
+    -o-transition-duration: 0ms !important;
+    -o-transition-delay: 0ms !important;
+
+    /* firefox */
+    -moz-animation-duration: 0ms !important;
+    -moz-animation-delay: 0ms !important;
+    -moz-animation-fill-mode: both !important;
+
+    -moz-transition-duration: 0ms !important;
+    -moz-transition-delay: 0ms !important;
+
+    /* IE and Edge */
+    -ms-animation-duration: 0ms !important;
+    -ms-animation-delay: 0ms !important;
+    -ms-animation-fill-mode: both !important;
+
+    -ms-transition-duration: 0ms !important;
+    -ms-transition-delay: 0ms !important;
+
+
+
+    
+
 }
 
+/* hide scroll bar for Chrome, Safari, Opera */
 ::-webkit-scrollbar {
     display: none;
 }
+
+

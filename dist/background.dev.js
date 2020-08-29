@@ -20,3 +20,4 @@
 // '   -ms-animation: none !important;' +
 // '   animation: none !important;}';
 //    document.getElementsByTagName('head')[0].appendChild(style);
+"use strict";
