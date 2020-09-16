@@ -49,5 +49,10 @@
 			"description": "Ctrl+Shift+Q"
 		}
 	},
+	"web_accesible_resources": [
+		"imgs/blank.png"
+	],
+
+
 	"manifest_version": 2
 }

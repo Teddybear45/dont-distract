@@ -6,3 +6,4 @@ chrome.commands.onCommand.addListener(function (command) {
 
   }
 });
+//todo bookmark links from a website. maybe pull them up when user goes to bottom right corner

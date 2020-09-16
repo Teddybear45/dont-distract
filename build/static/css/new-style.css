@@ -1,7 +1,4 @@
 * {
-    /* Disable scrollbar for IE, Edge, Firefox*/
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     /* Start \ removes animations and delays */
     /* Chrome New Edge Safari */
     animation-duration: 0ms !important;
@@ -29,11 +26,20 @@
     -ms-transition-delay: 0ms !important;
 }
 
-/* hide scroll bar for Chrome, Safari, Opera */
+/* scrollbar changes */
 
-* ::-webkit-scrollbar {
-    display: none;
+::-webkit-scrollbar-track-piece:start {
+    background: transparent url('.../imgs/blank.png') repeat-y !important;
 }
+
+::-webkit-scrollbar-track-piece:end {
+    background: transparent url('.../imgs/blank.png') repeat-y !important;
+}
+
+
+
+
+/* Start module search bar */
 
 #Z-module-search-bar {
     display: none;
